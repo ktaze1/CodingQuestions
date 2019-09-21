@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Remembering Python", "Remembering Python\Remembering Python.pyproj", "{950C78E6-713A-44AD-93AB-1469D68A749F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{950C78E6-713A-44AD-93AB-1469D68A749F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950C78E6-713A-44AD-93AB-1469D68A749F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E64BFC4-F7DD-4154-80E4-7DC356B0A397}
+	EndGlobalSection
+EndGlobal
