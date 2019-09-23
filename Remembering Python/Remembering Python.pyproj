@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>950c78e6-713a-44ad-93ab-1469d68a749f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CogniteInterviewQuestion.py</StartupFile>
+    <StartupFile>MedianofTwoSortedArr.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CogniteInterviewQuestion.py" />
+    <Compile Include="ContainerWithMostWater.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MedianofTwoSortedArr.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TwoSums.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
