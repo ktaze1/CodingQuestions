@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>950c78e6-713a-44ad-93ab-1469d68a749f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MedianofTwoSortedArr.py</StartupFile>
+    <StartupFile>ContainerWithMostWater.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
