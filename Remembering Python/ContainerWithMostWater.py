@@ -10,7 +10,8 @@ def maxContainerSize(arr):
     for x in range(len(arr)-1):
         for y in range(1,len(arr)):
             if area < ((y-x) * (abs((arr[x]-arr[y])))):
-                area = ((y-x+1)*(abs(arr[x]-arr[y])))
+                print(x,y)
+                area = ((y-x)*(abs(arr[x]-arr[y])))
     return area
 
-print(maxContainerSize([1,8,6,2,5,4,8,3,7]))
+print(maxContainerSize([8,1,6,2,5,4,8,3,7]))
