@@ -109,7 +109,7 @@ Interview Experiences:
 
 
 
-	Interview Round 1:
+Interview Round 1:
 
 	Given n coins for two players playing a game. Each player picks coins from the given n coins in such a way that he can pick 1 to 5 coins in one turn and the game continues for both the players. The player who picks the last coin looses the game. You have to tell that for given n coins who looses the game? 
 
@@ -147,32 +147,33 @@ Interview Experiences:
 	write the code for level-order traversal of a tree.
 	Find the square root of a number. 1- Babylonian method . 2- Binary Search
 
-	Interview Round 2:
+Interview Round 2:
+
 	Given in facebook find an efficient way to find the mutual friends between you and one of your given friends.
-Hint: hashing, dictionary data structure implementation
+    Hint: hashing, dictionary data structure implementation
 	For two very long numbers given, find the product of these numbers in an efficient way.
-Hint: using binary multiplication effectively.
+    Hint: using binary multiplication effectively.
 	Given a sorted array of 0’s and 1’s. Find out the no. of 0’s in it. Write recursive, iterative versions of the code and check for all test cases.
 	Spiral level order traversal without using extra variable for detecting level (using one stack and one queue) and few other implementations as well.
 	a) He asked me to speak something about myself and my technical achievements.
-b) How to store a binary tree in a file & then read back.(It is not necessarily a BST)
-First I answered that I would store level-order traversal of the tree.
-He then asked me how I would maintain the nodes at various levels (which I was unable to answer). So, I changed my approach and told that: I would store in-order and pre-order traversals of the tree from which the original tree can be easily retrieved.
-But then he told me to optimize my approach (As this approach would require twice the original space to store the data in the nodes). I could not further optimize my approach (However the better approach was to use parenthesization
+    b) How to store a binary tree in a file & then read back.(It is not necessarily a BST)
+    First I answered that I would store level-order traversal of the tree.
+    He then asked me how I would maintain the nodes at various levels (which I was unable to answer). So, I changed my approach and told that: I would store in-order and pre-order traversals of the tree from which the original tree can be easily retrieved.
+    But then he told me to optimize my approach (As this approach would require twice the original space to store the data in the nodes). I could not further optimize my approach (However the better approach was to use parenthesization
 	Given a BST, replace each node with the sum of the values of all the nodes that are greater than that node. Only constraint being that I was not allowed to use any global or static variable.
 	Given an array of numbers find the maximum count of duplets and triplets such that there sum is a multiple of three.
-Number that has appeared once can’t be included anywhere else.
+    Number that has appeared once can’t be included anywhere else.  
 	Given the stock prices of 10 days find the best possible buy sell pair.
 	Write a code to find the Diameter of the given a binary tree
 	Given a number design the algorithm to find the next greater number which contains exactly same digits.
 	Given n appointments with the start time, end time and a boolean variable hasConfilct, we have to set the boolean variable hasConflict of those appointments that conflict with the other appointments.
-Example:  Appointment1: (2:00-3:00)
-Appointment2: (2:30-3:30)
-Appointment3: (4:00-6:00)
-I have to set the hasConflict of Appointment 1 and 2 as true. Initially, I did it in O(n^2). But then he asked me to optimize the solution.
+    Example:  Appointment1: (2:00-3:00)
+    Appointment2: (2:30-3:30)
+    Appointment3: (4:00-6:00)
+    I have to set the hasConflict of Appointment 1 and 2 as true. Initially, I did it in O(n^2). But then he asked me to optimize the solution.
 	Given that at Amazon.in the details page of an item shows only one field that is dynamically picked up from the database, we have to improve the performance according to the line:
-“80% of the users visit details page of 20% of products.”
-I said we could store these 20% on the web server so that we don’t have to fetch the item details from database everytime. He asked me where and how will i store it. I answered Main memory and will use BST to store it. Then after a lot of discussion(about 30 mins) on how will the get and put operations be used, he was satisfied with the solution.
+    “80% of the users visit details page of 20% of products.”
+    I said we could store these 20% on the web server so that we don’t have to fetch the item details from database everytime. He asked me where and how will i store it. I answered Main memory and will use BST to store it. Then after a lot of discussion(about 30 mins) on how will the get and put operations be used, he was satisfied with the solution.
 	Given a linked list placed in memory, what problems can arise if simultaneous operations are performed on the list. From here he started asking about threads because the answer was related to it.
 	When a single threaded application is converted to multi-threaded applications, what kind of changes operating system has to make?
 	What steps are taken when the os shifts from one-thread execution to another?
@@ -181,5 +182,5 @@ I said we could store these 20% on the web server so that we don’t have to fet
 	Given a matrix sorted in ascending order both row and column wise. Search an element.
 	Given a tree, print the max sum path from root to leaf.
 	Given a tree,print spirally the column order of a tree. ???
-	 Implement a stack using array. 
+	Implement a stack using array. 
 	You are given an array . You have to create a stack when the user wants to do so and delete a stack when the user says.You wont be given the number of stacks that will be created.
