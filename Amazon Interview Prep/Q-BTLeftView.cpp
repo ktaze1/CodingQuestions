@@ -15,24 +15,24 @@ Node* addNode(int val)
 
 }
 
-void leftViewBTUtil(Node* root, int level, int* max_level)
+void leftViewBTUtil(Node* root, int level, int* maxLevel)
 {
     if(root == nullptr)
         return;
 
-    if (*max_level < level) {
+    if (*maxLevel < level) {
         std::cout << root->value << '\t';
-        *max_level = level;
+        *maxLevel = level;
     }
 
-    leftViewBTUtil(root->left, level+1, max_level);
-    leftViewBTUtil(root->right, level+1, max_level);
+    leftViewBTUtil(root->left, level+1, maxLevel);
+    leftViewBTUtil(root->right, level+1, maxLevel);
 }
 
 void leftView(Node* root)
 {
-    int max_level = 0;
-    leftViewBTUtil(root, 1, &max_level);
+    int maxLevel = 0;
+    leftViewBTUtil(root, 1, &maxLevel);
 }
 
 
