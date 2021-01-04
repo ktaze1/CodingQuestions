@@ -27,3 +27,5 @@ def findReplacedWord(str1, str2):
 
 findReplacedWord("aabc+aa+", "aabcKaanaaKaasdfsdfn")
 #test
+
+#test0.1
